@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: #9b293c;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 14px 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav-item a:hover {
+    background-color: #ff6c90;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight:bolder ;
+}
+
+.sub-navbar {
+    background-color: #d03851;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 60px; /* Adjust based on the height of the main navbar */
+    z-index: 999;
+    border-radius: 0 0 10px 10px;
+}
+
+.sub-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-nav-item {
+    padding: 10px 15px;
+}
+
+.sub-nav-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sub-nav-item a:hover {
+    background-color: #c12740;
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    font-weight:bolder;
+    border: 1px solid #f87a8f;
+    border-radius: 5px;
+}
+
+.section0-1{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px; /* Adjust based on the combined height of both navbars */
+    /* padding-left: 10vw; */
+    text-align: center;
+}
+
+
+.section0-2{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    /* padding-left: 10vw; */
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px; /* Adjust based on the combined height of both navbars */
+    overflow: scroll;
+    padding-left: 10vw;
+    
+
+
+}
+
+
+.image{
+    /* margin: 10px; */
+    /* height: 60vh;
+    width: 30vw; */
+    /* border: 2px solid black; */
+
+    margin: 1%;
+    text-align: center;
+}
+.image img{
+    border-radius: 10px;
+    height: 65vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+
+#women {
+    background-color: #ffd1e68a;
+}
+
+#men {
+    background-color: #6c3d3d4c;
+}
+
+#girls {
+    background-color: #ff57cf69;
+}
+
+#boys {
+    background-color: #7007077b;
+}
+
+#salwar-kameez {
+    background-color: #87ffbf5b;
+}
+
+#tshirts {
+    background-color: #e4e6b0a4;
+}
+
+#jeans {
+    background-color: #7cb3ff89;
+}
+
+#jackets {
+    background-color: #5a5a5a;
+}
+
+
+
+
+
+
+
+
+
+
